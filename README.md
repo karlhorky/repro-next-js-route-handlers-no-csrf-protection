@@ -1,6 +1,6 @@
 # Next.js Route Handlers have no CSRF protection, unlike Server Actions
 
-Reproduction for https://github.com/vercel/next.js/discussions/101245
+Reproduction for https://github.com/vercel/next.js/issues/101251
 
 The same cross-site login form is rejected by a Server Action but accepted by a Route Handler in the same app.
 
